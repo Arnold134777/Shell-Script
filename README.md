@@ -1,5 +1,5 @@
 # 日常开发中写的脚本
-一直想抽时间学习一下shell编程，一直给自己找借口，万事开头难写的第一个日常工作用到的脚本。
+一直想抽时间学习一下shell,python编程，一直给自己找借口，万事开头难。
 
 ## 1.杀掉端口的所有进程
 
@@ -215,7 +215,7 @@ if __name__=="__main__":
 
     #### 设置参量
     ProjPath=cur_file_dir()
-    ProjectName='FFProject' # 自己定定义projectName
+    ProjectName='XXX' # 自己定定义projectName
     xcodeprojPath=cur_file_dir()+'/' + ProjectName + '/' + ProjectName + '.xcodeproj/project.pbxproj'
     PodsprojPath=cur_file_dir()+'/' + ProjectName + '/Pods/Pods.xcodeproj/project.pbxproj'
     RNPath=cur_file_dir()+'/react_native'
